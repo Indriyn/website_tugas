@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Formulir</title>
     <style>
+        h1{
+            color: palevioletred;
+            text-shadow: pink 0 2px;
+            margin: 20px;
+        }
         fieldset{
-            background-color: rgb(189, 15, 105);
+            background-color: pink;
         }
         legend{
-            background-color: rgb(136, 0, 70);
+            background-color: rgb(253, 167, 182);
             color: white;
+            text-shadow: deeppink 0 1px;
             border-radius: 5px;
             padding: 5px;
         }
@@ -16,26 +22,16 @@
             margin: 5px;
         }
         form{
-            border: solid 1px rgb(216, 143, 112);
-            background-color:rgb(252, 236, 216);
+            border: solid 0px;
+            background-color: palevioletred;
+            color: white;
+            text-shadow: deeppink 0 1px;
             padding: 15px;
-        }
-        input.button{
-            background: rgb(232, 121, 179);
-            font-family: sans-serif;
-            border-radius: 5px;
-
-        }
-        input.button:hover{
-            border: 1px papayawhip;
-            cursor: pointer;
-        }
-        input.button:active{
-            background: palevioletred;
         }
     </style>
 </head>
 <body>
+    <h1>Formulir Daftar</h1>
     <fieldset>
         <legend>Universitas Patilasan Ikip</legend>
         <form>
@@ -86,8 +82,8 @@
                 <input type="checkbox"> Setuju
             </div>
             <div>
-                <input class="button" type="submit">
-                <input class="button" type="reset">
+                <input  type="submit">
+                <input type="reset">
             </div>
         </form>
     </fieldset>
