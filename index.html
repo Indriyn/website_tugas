@@ -3,42 +3,51 @@
 <head>
     <title>Daftar Tugas PWPB</title>
     <style>
-        body{
-            background-color: rgba(216, 174, 255, 0.765);
-            align-items: center;
+        body {
+            background: url("capybara.jpg") repeat center center/cover ;
+            background-attachment: fixed;
             font-family: "Poppins", sans-serif;
-            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
-        h1{
-            color:rgb(230, 243, 255);
+        h1 {
+            color: #fdabe4; 
             text-align: center;
-            text-shadow:rgb(172, 71, 163) 0 2px 2px ;
+            text-shadow: #bc9090 0 3px 5px; 
+            font-size: 35px;
+            margin-bottom: 20px;
         }
-        .tugas{
-            background-color: blueviolet;
+        .container {
+            background-color: rgba(255, 255, 255, 0.276); 
+            border-radius: 25px;
+            box-shadow: #b59898 0 6px 12px; 
+            width: 380px;
+            text-align: center;
+        }
+        .tugas {
+            background:#ffb6d9; 
             display: inline-block;
             padding: 12px 20px;
-            color: aliceblue;
+            color: #fff;
             border-radius: 30px;
             font-weight: bold;
             font-size: 18px;
-            margin: 5px;
-            box-shadow: purple 0 3px 3px;
+            margin: 8px 5px;
+            box-shadow: rgba(0, 0, 0, 0.15) 0 4px 6px;
+            text-decoration: none;
+            transition: 0.3s;
         }
-        .container{
-            background-color: aliceblue;
-            padding: 25px;
-            border-radius: 20px;
-            box-shadow:purple 0 5px 5px;
-            width: 350px;
-            margin: 0;
-            text-align: center;
+        .tugas:hover {
+            background: linear-gradient(135deg, #ff9ec4, #bea0a0);
+            transform: scale(1.05);
+            box-shadow: rgba(0, 0, 0, 0.25) 0 6px 10px;
         }
     </style>
 </head>
 <body>
     <h1>DAFTAR TUGAS PWPB</h1>
-    <center>
     <div class="container">
         <a class="tugas" href="tugas utama/salon_awal.html">Tugas Utama</a><br>
         <a class="tugas" href="T1/text_align.html">TUGAS 1</a>
@@ -46,6 +55,5 @@
         <a class="tugas" href="T3/csstable_vidio.html">TUGAS 3</a>
         <a class="tugas" href="T4/formulir_5.html">TUGAS 4</a>
     </div>
-    </center>
 </body>
 </html>
